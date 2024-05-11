@@ -21,7 +21,7 @@ const Hero = () => {
           scale: 1,
           speed: 450,
         }}
-        className="bg-[#bf61ff] rounded-full py-2 px-6  flex justify-center items-center group"
+        className="bg-[#bf61ff] rounded-full sm:py-2 sm:px-6 px-3 py-1 flex justify-center items-center group"
       >
         <img
           src={social.icon}
@@ -37,7 +37,7 @@ const Hero = () => {
       <div
         className={`absolute inset-0 h-full w-full justify-center items-center  max-w-7xl mx-auto ${styles.paddingX} flex flex-col-reverse items-start gap-5`}
       >
-        <div className="mt-20 flex flex-wrap gap-10">
+        <div className="mt-20 flex flex-wrap sm:gap-10 gap-4">
           {socialHandles.map((social, index) => (
             <SocialHandle index={index} social={social} />
           ))}
