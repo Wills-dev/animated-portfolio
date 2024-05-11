@@ -36,11 +36,7 @@
 .violet-gradient {
   background: #bf61ff;
   background: linear-gradient(to right, #bf61ff 0%, rgba(60, 51, 80, 0) 100%);
-  background: -webkit-linear-gradient(
-    to right,
-    #bf61ff 0%,
-    rgba(60, 51, 80, 0) 100%
-  );
+  background: -webkit-linear-gradient(to right, #bf61ff 0%, #3c335000 100%);
 }
 
 .green-pink-gradient {

@@ -14,15 +14,20 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  linkedIn,
+  x,
+  email,
+  github,
+  nextjs,
+  buyershub,
+  buzzconnect,
+  emilist,
+  marketplace,
+  pearlAsset,
+  qlh,
+  smartAI,
+  tofapay,
 } from "../assets";
 
 export const navLinks = [
@@ -32,11 +37,11 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experience",
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: "project",
+    title: "Project",
   },
 ];
 
@@ -81,6 +86,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Next  JS",
+    icon: nextjs,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -108,103 +117,81 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Frontend Developer",
+    company_name: "Traders of Africa",
+    iconBg: "#3c3350",
+    date: "August 2022 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Onboard partner on the product.",
+      "Oversee and maintain codebases, actively implementing novel features and enhancements.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "React Developer",
+    company_name: "KellyX Global",
+    iconBg: "#3c3350",
+    date: "May 2021 - August 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developed responsive landing pages using JavaScript/ES6+, React, Typescript, Redux and Next.Js",
+      "Collaborated with design, product management and backend teams to create responsive web products.",
+      "Refactored poorly written codes for clients, increasing the overall quality.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Frontend Developer | Program Lead",
+    company_name: "Agrohive",
+    iconBg: "#3c3350",
+    date: "Nov 2019 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Evaluated the structure and design of web pages.",
+      "Debug errors, troubleshoot issues, and perform routine performance optimization.",
+      "Attract and secure partnerships for third party programs.",
     ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Buyer's Hub",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Traders of Africa company's web base and e-commerce platform specializing in bulk agricultural produce purchases for aggregators",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
+      },
+      {
+        name: "Socket.io",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: buyershub,
+    source_code_link: "https://www.tradersofafrica.com/",
+  },
+  {
+    name: "Emilist",
+    description:
+      "A platform where artisans, handymen, and experts seamlessly find projects and are closely monitored until completion and they get paid. Still in development",
+    tags: [
+      {
+        name: "Next",
+        color: "green-text-gradient",
       },
       {
         name: "mongodb",
@@ -214,14 +201,68 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: emilist,
+    source_code_link: "https://emilist-webapp.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "TOFA PAY",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web-based platform that allows users to search, manage payment, and track schedule from various partners and suppliers, providing a convenient and efficient solution to tracking list and schedules.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Context API",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tofapay,
+    source_code_link: "https://tofapay.tradersofafrica.com/",
+  },
+  {
+    name: "TOFA Marketplace",
+    description:
+      "A digital market place platform bridging the gap between buyers and sellers seamlessly online. Still in development",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: marketplace,
+    source_code_link: "https://marketplase.tradersofafrica.com/",
+  },
+  {
+    name: "Quick Logistic Hub",
+    description:
+      "A digital logistic as a service platform where different logistic providers register and users have access to them.",
     tags: [
       {
         name: "react",
@@ -232,34 +273,111 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: qlh,
+    source_code_link: "https://www.quicklogisticshub.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Smart AI",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An OpenAI Article Summarizer Crafting Clear and Concise Summaries from Lengthy Articles.",
     tags: [
       {
-        name: "nextjs",
+        name: "redux",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "openAI",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Rapid API",
         color: "pink-text-gradient",
       },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: smartAI,
+    source_code_link: "https://smart-brief-ai.netlify.app/",
+  },
+  {
+    name: "Pearl Assets",
+    description:
+      "A  fine quality gemstone traders showcasing and selling the best of gemstones all over the world.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: pearlAsset,
+    source_code_link: "https://webbsgem.netlify.app/",
+  },
+  {
+    name: "BUZZCONNECT",
+    description:
+      "A real time messaging app designed to connect everyone registered. Right now it's not responsive for mobile users",
+    tags: [
+      {
+        name: "Zustand",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Socket.io",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: buzzconnect,
+    source_code_link: "https://smart-brief-ai.netlify.app/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const socialHandles = [
+  {
+    url: "mailto:ejioguvictor6@gmail.com",
+    icon: email,
+  },
+  {
+    url: "https://www.linkedin.com/in/victor-ejiogu-4b594916a/",
+    icon: linkedIn,
+  },
+  {
+    url: "https://github.com/Wills-dev",
+    icon: github,
+  },
+  {
+    url: "https://twitter.com/Willsssss_",
+    icon: x,
+  },
+];
+
+export { services, technologies, experiences, projects, socialHandles };
