@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 import { socialHandles } from "../constants";
 import { fadeIn } from "../utils/motion";
 
@@ -21,6 +20,7 @@ const Hero = () => {
           scale: 1,
           speed: 450,
         }}
+        key={index}
         className="bg-[#bf61ff] rounded-full sm:py-2 sm:px-6 px-3 py-1 flex justify-center items-center group"
       >
         <img
@@ -35,7 +35,7 @@ const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
-        className={`absolute inset-0 h-full w-full justify-center items-center  max-w-7xl mx-auto ${styles.paddingX} flex flex-col-reverse items-start gap-5`}
+        className={`absolute inset-0 h-full w-full justify-center items-center  max-w-7xl mx-auto ${styles.paddingX} flex flex-col-reverse gap-5`}
       >
         <div className="mt-20 flex flex-wrap sm:gap-10 gap-4">
           {socialHandles.map((social, index) => (
