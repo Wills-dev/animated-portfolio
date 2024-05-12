@@ -16,7 +16,7 @@ function App() {
     <BrowserRouter>
       <div className="relative  z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center relative">
-          <div className="absolute top-0 bottom-0 right-0 left-0 h-full w-full bg-black opacity-80" />
+          <div className="absolute top-0 bottom-0 right-0 left-0 h-full w-full bg-black xs:opacity-80 opacity-85  " />
           <Navbar />
           <Hero />
         </div>
