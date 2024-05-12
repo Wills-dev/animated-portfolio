@@ -81,4 +81,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "project");
+export default SectionWrapper(Works, "");
