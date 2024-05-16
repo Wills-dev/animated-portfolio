@@ -257,7 +257,7 @@ const projects = [
       },
     ],
     image: marketplace,
-    source_code_link: "https://marketplase.tradersofafrica.com/",
+    source_code_link: "https://feat-victor.d322fqp4xeh83s.amplifyapp.com/",
   },
   {
     name: "Quick Logistic Hub",
