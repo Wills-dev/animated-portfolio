@@ -126,11 +126,12 @@ const experiences = [
     iconBg: "#3c3350",
     date: "August 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Onboard partner on the product.",
-      "Oversee and maintain codebases, actively implementing novel features and enhancements.",
+      "Worked with design, product management and backend teams to create a responsive Marketplace and E-commerce web applications.",
+      "Contributed to projects within Scrum project management environments.",
+      "Completed full redesigns of existing websites to improve navigation, enhance visuals and strengthen search engine rankings.",
+      "Enhanced user experience by optimizing web applications for maximum speed and scalability.",
+      "Worked closely with UX/UI designers to translate their designs into functional web applications.      ",
+      "Developed user-friendly web forms with validation and error handling.      ",
     ],
   },
   {
@@ -139,10 +140,14 @@ const experiences = [
     iconBg: "#3c3350",
     date: "May 2021 - August 2022",
     points: [
-      "Developed responsive landing pages using JavaScript/ES6+, React, Typescript, Redux and Next.Js",
-      "Collaborated with design, product management and backend teams to create responsive web products.",
+      "Collaborated with stakeholders during all phases of project lifecycle from concept through deployment.     ",
+      "Collaborated with in-house web designers to create sleek and innovative UI design.      ",
       "Refactored poorly written codes for clients, increasing the overall quality.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Optimized web applications for speed, scalability and security.      ",
+      "Utilized HTML, CSS, and JavaScript to create visually appealing and responsive web pages that met client requirements.      ",
+      "Collaborated with back-end developers to improve website functionality and integrate new features.      ",
+      "Teamed on user-centric design strategy in translation of UX and business requirements into coded solutions.      ",
     ],
   },
   {
@@ -154,6 +159,10 @@ const experiences = [
       "Evaluated the structure and design of web pages.",
       "Debug errors, troubleshoot issues, and perform routine performance optimization.",
       "Attract and secure partnerships for third party programs.",
+      "Contributed innovative ideas during brainstorming sessions, driving project success through creative problem solving.      ",
+      "Tested programs and databases to identify issues and make necessary modifications.      ",
+      "Streamlined code for faster load times and improved website performance.      ",
+      "Continuously updated skills through training courses, workshops, and self-study—staying current on industry trends and emerging technologies.      ",
     ],
   },
 ];
@@ -187,7 +196,7 @@ const projects = [
   {
     name: "Emilist",
     description:
-      "A platform where artisans, handymen, and experts seamlessly find projects and are closely monitored until completion and they get paid. Still in development",
+      "An online platform where artisans and handymen can find projects, receive close monitoring until project completion, and then get paid.  Still on development.",
     tags: [
       {
         name: "Next",
@@ -212,7 +221,7 @@ const projects = [
   {
     name: "TOFA PAY",
     description:
-      "Web-based platform that allows users to search, manage payment, and track schedule from various partners and suppliers, providing a convenient and efficient solution to tracking list and schedules.",
+      "A web-based platform that allows  convenient  and efficient solution to tracking payment, list and schedules.",
     tags: [
       {
         name: "React",
@@ -237,7 +246,7 @@ const projects = [
   {
     name: "TOFA Marketplace",
     description:
-      "A digital market place platform bridging the gap between buyers and sellers seamlessly online. Still in development",
+      "An online market place seamlessly facilitating trade between buyers and sellers.",
     tags: [
       {
         name: "react",
@@ -262,7 +271,7 @@ const projects = [
   {
     name: "Quick Logistic Hub",
     description:
-      "A digital logistic as a service platform where different logistic providers register and users have access to them.",
+      "A digital logistics-as-a-service platform that onboards various logistics providers, offering users the option to choose from different providers.",
     tags: [
       {
         name: "react",
@@ -357,7 +366,7 @@ const projects = [
       },
     ],
     image: buzzconnect,
-    source_code_link: "https://smart-brief-ai.netlify.app/",
+    source_code_link: "https://buzzconnect.onrender.com/login",
   },
 ];
 
