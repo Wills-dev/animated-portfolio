@@ -138,7 +138,7 @@ const experiences = [
     title: "Frontend Developer",
     company_name: "Innobee",
     iconBg: "#3c3350",
-    date: "May 2023 - December 2023",
+    date: "May 2024 - December 2024",
     points: [
       "Oversaw the project development cycle.",
       "Worked with design, product management and backend teams to create a responsive User management dashboard.",
