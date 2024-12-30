@@ -21,7 +21,7 @@ const Hero = () => {
           speed: 450,
         }}
         key={index}
-        className="bg-[#bf61ff] rounded-full sm:py-2 sm:px-6 px-3 py-1 flex justify-center items-center group"
+        className="bg-[#bf61ff] rounded-full  p-3  flex justify-center items-center group"
       >
         <img
           src={social.icon}
@@ -60,7 +60,7 @@ const Hero = () => {
         </div>
       </div>
       {/* <ComputersCanvas /> */}
-      <div className="absolute bottom-10  w-full flex justify-center items-center">
+      {/* <div className="absolute bottom-10  w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
@@ -76,7 +76,7 @@ const Hero = () => {
             />
           </div>
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };
