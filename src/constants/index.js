@@ -135,6 +135,20 @@ const experiences = [
     ],
   },
   {
+    title: "Frontend Developer",
+    company_name: "Innobee",
+    iconBg: "#3c3350",
+    date: "May 2023 - December 2023",
+    points: [
+      "Oversaw the project development cycle.",
+      "Worked with design, product management and backend teams to create a responsive User management dashboard.",
+      "Contributed to projects within Scrum project management environments.",
+      "Enhanced user experience by optimizing web applications for maximum speed and scalability.",
+      "Worked closely with UX/UI designers to translate their designs into functional web applications.      ",
+      "Developed user-friendly web forms with validation and error handling.",
+    ],
+  },
+  {
     title: "React Developer",
     company_name: "KellyX Global",
     iconBg: "#3c3350",
@@ -216,7 +230,7 @@ const projects = [
       },
     ],
     image: emilist,
-    source_code_link: "https://emilist-webapp.vercel.app/",
+    source_code_link: "https://emilist-tom.netlify.app/",
   },
   {
     name: "TOFA PAY",
@@ -266,33 +280,33 @@ const projects = [
       },
     ],
     image: marketplace,
-    source_code_link: "https://feat-victor.d322fqp4xeh83s.amplifyapp.com/",
+    source_code_link: "https://marketplase.tradersofafrica.com/",
   },
-  {
-    name: "Quick Logistic Hub",
-    description:
-      "A digital logistics-as-a-service platform that onboards various logistics providers, offering users the option to choose from different providers.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: qlh,
-    source_code_link: "https://www.quicklogisticshub.com/",
-  },
+  // {
+  //   name: "Quick Logistic Hub",
+  //   description:
+  //     "A digital logistics-as-a-service platform that onboards various logistics providers, offering users the option to choose from different providers.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "restapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "redux",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "typescript",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: qlh,
+  //   source_code_link: "https://www.quicklogisticshub.com/",
+  // },
   {
     name: "Smart AI",
     description:
